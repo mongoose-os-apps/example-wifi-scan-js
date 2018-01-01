@@ -2,7 +2,7 @@ load('api_sys.js');
 load('api_timer.js');
 load('api_wifi.js');
 
-Timer.set(5000, true, function() {
+Timer.set(5000, Timer.REPEAT, function() {
   print('>> Starting scan...');
   Wifi.scan(function(results) {
     if (results === undefined) {
