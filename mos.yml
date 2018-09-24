@@ -15,6 +15,7 @@ filesystem:
 
 libs:
   # These libs are required by the app.
+  - origin: https://github.com/mongoose-os-libs/boards
   - origin: https://github.com/mongoose-os-libs/mjs
   - origin: https://github.com/mongoose-os-libs/wifi
   # js-demo-bundle provides useful functions not directly related to the example
